@@ -1,7 +1,7 @@
 import requests
 import urllib3
 from utils.loggers import log
-import urlparse
+import urllib.parse as urlparse
 from copy import deepcopy
 import utils.config
 
